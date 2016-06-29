@@ -4,6 +4,7 @@ DBSync uses RMAN and RSYNC to do this
 ##setup
 Install Oracle software only to a second machine ( or clone the oracle home )
 place scripts in directory eg /oracle/dbsync
+create directory dbsync/logs
 
 check default values in 
 ```
