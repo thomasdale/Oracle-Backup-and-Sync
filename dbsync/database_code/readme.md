@@ -11,6 +11,7 @@ PRIMARY_LOGFILE_BASE_DIR=<base_log_dir>
 ##Set up primary to process the logs
 
 First check the update location of logs in CREATE DIRECTORY in create_external_table_dbsync_logs.sql
+
 SQL> @create_external_table_dbsync_logs.sql
 
 SQL> @sys_grants
