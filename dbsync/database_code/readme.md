@@ -16,7 +16,7 @@ SQL> @create_external_table_dbsync_logs.sql
 
 SQL> @sys_grants
  
-SQL> conn <dbsync_user>
+SQL> conn YOUR_DBSYNC_MONITOR_USER
 
 SQL> @primary_db_objects.sql
 
